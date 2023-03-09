@@ -1,0 +1,52 @@
+*{
+    background-color: lightblue;
+    margin: 5px;
+    padding: 5px 5px;
+    font-family: 'Oswald', sans-serif;
+}
+body fieldset{
+    border: solid blue 2px;
+    padding: 5px 5px;
+    border-right: 5px;
+    border-left: 5px;
+    width: auto;
+}
+section#hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+section#hero h1{ 
+    font-size: 3rem;
+}
+    @media only screen and (max-widht: 600px) {
+        section#hero h1{ 
+    font-size: 2rem;
+}
+}
+section#hero img{
+    width: 20%;
+    margin: 20px;
+}
+
+section#historial legend{
+    border: solid blue 1px;
+    border-radius: 10px;
+    border-right: 10px;
+    border-left: 10px;
+}
+
+section#formación legend{
+    border: solid blue 1px;
+    border-radius: 10px;
+    border-right: 10px;
+    border-left: 10px;
+}
+
+section#objetivo legend{
+    border: solid blue 1px;
+    border-radius: 10px;
+    border-right: 10px;
+    border-left: 10px;
+}
